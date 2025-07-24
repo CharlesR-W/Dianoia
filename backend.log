@@ -1,0 +1,37 @@
+
+> dianoia-backend@1.0.0 dev
+> ts-node src/index.ts
+
+[2025-07-05T22:12:35.737Z] [DEBUG] [system] debug_init: Debug system initialized (1751753555737.00ms)
+📊 Debug Details
+  Data: {
+    config: {
+      enabled: true,
+      level: 'debug',
+      includeTimestamps: true,
+      includePerformance: true,
+      includeStackTraces: true,
+      logToConsole: true,
+      logToFile: false
+    },
+    environment: 'node',
+    timestamp: '2025-07-05T22:12:35.736Z'
+  }
+  Performance: { duration: 1751753555737 }
+[2025-07-05T22:12:35.789Z] [INFO] [server] startup: Dianoia backend server started (1751753555789.00ms)
+📊 Debug Details
+  Data: {
+    port: '5000',
+    environment: 'development',
+    corsOrigin: 'http://localhost:3000'
+  }
+  Performance: { duration: 1751753555789 }
+🚀 Dianoia backend server running on port 5000
+📡 Health check: http://localhost:5000/health
+🐛 Debug logs: http://localhost:5000/debug/logs
+[2025-07-05T22:12:53.021Z] [INFO] [server] shutdown: Received SIGTERM, shutting down gracefully (1751753573021.00ms)
+📊 Debug Details
+  Performance: { duration: 1751753573021 }
+[2025-07-05T22:12:53.025Z] [INFO] [server] shutdown_complete: Server shutdown complete (1751753573025.00ms)
+📊 Debug Details
+  Performance: { duration: 1751753573025 }

@@ -1,0 +1,36 @@
+.App {
+    text-align: left;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* React Flow customizations */
+.react-flow__node {
+    cursor: pointer;
+}
+
+.react-flow__handle {
+    background: #3b82f6;
+    border: 2px solid white;
+}
+
+.react-flow__handle:hover {
+    background: #2563eb;
+}
+
+.react-flow__edge-path {
+    stroke: #6b7280;
+    stroke-width: 2;
+}
+
+.react-flow__edge.animated path {
+    stroke-dasharray: 5;
+    animation: dashdraw 0.5s linear infinite;
+}
+
+@keyframes dashdraw {
+    from {
+        stroke-dashoffset: 10;
+    }
+}

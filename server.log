@@ -1,0 +1,19 @@
+/home/crw/AI/Cursor/Cursor.AppImage: ignoring input
+[0;34m🚀 Starting Dianoia - Visual Argumentation Co-Pilot[0m
+[0;32m✅ Node.js version: v18.20.8[0m
+[1;33m🔍 Checking for existing Dianoia processes...[0m
+[0;34m🔧 Starting backend server on port 5000...[0m
+[0;32m✅ Backend server running on port 5000 (PID: 3563650)[0m
+[0;34m🎨 Starting frontend server on port 3000...[0m
+[0;32m✅ Frontend server running on port 3000 (PID: 3563828)[0m
+
+[0;32m🎉 Dianoia is ready![0m
+[0;34m📡 Backend: http://localhost:5000[0m
+[0;34m🌐 Frontend: http://localhost:3000[0m
+[0;34m🏥 Health check: http://localhost:5000/health[0m
+
+[1;33m💡 Open http://localhost:3000 in your browser to start using Dianoia[0m
+[1;33m🛑 Press Ctrl+C to stop all servers[0m
+
+[1;33m🛑 Shutting down Dianoia servers...[0m
+[0;32m✅ Cleanup complete[0m
