@@ -1,14 +1,15 @@
 # Dianoia - Visual Argumentation Co-Pilot
 
-A web-based "Centaur" tool for visual thinking and argumentation. Users provide strategic direction and evaluation, while an LLM co-pilot provides speed, brainstorming, and structural assistance.
+## Please note this project is not yet functional!  The readme below describes intended features and usage, subject to change.
+
+A web-based "Centaur" tool for argumentation generation and analysis, inspired by argument markup languages like Argdown.  The intent is to provide the user a streamlined way to use LLMs to generate and evaluate argumentation, with the particular hope that re-instantiation of LLMs can be used to mitigate cognitive biases.
 
 ## Features
 
 - **Visual Argument Mapping**: Create and connect claims on a 2D canvas
 - **AI-Powered Generation**: Generate supporting, refuting, or unpacking claims using OpenAI
 - **Interactive Interface**: Double-click to edit claims, drag to reposition
-- **Responsive Design**: Works on desktop and mobile devices
-- **Local Persistence**: Saves your argument graphs in browser localStorage
+- **Local Persistence**: Saves your argument graphs in browser localStorage.  An online "library" of argumentation graphs is planned,
 
 ## Technology Stack
 
@@ -22,15 +23,7 @@ A web-based "Centaur" tool for visual thinking and argumentation. Users provide 
 
 - Node.js (v12 or higher)
 - npm or yarn
-- OpenAI API key
-
-### Getting an OpenAI API Key
-
-1. Go to [OpenAI's website](https://platform.openai.com/)
-2. Sign up or log in to your account
-3. Navigate to the API section
-4. Create a new API key
-5. Copy the key (it starts with `sk-`)
+- OpenAI API key (Planned OpenRouter support)
 
 ### Installation
 
@@ -139,7 +132,7 @@ This is an MVP prototype. The architecture is designed for extensibility. Key ar
 
 ## License
 
-[Add your license here]
+MIT License
 
 ## Support
 
